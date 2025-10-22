@@ -1,0 +1,66 @@
+<div class="layout">
+  <!-- Barra lateral -->
+  <aside class="sidebar">
+    <nav class="sidebar-menu">
+      <ul>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#productos" >Productos</a></li>
+        <li><a href="#ventas">Ventas</a></li>
+        <li><a href="#clientes" class="active" >Clientes</a></li>
+        <li><a href="#proveedores">Proveedores</a></li>
+        <li><a href="#reportes">Reportes</a></li>
+        <li><a href="#cerrar">Cerrar Sesión</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Contenido principal -->
+  <main class="dashboard-container">
+    <!-- Barra superior -->
+    <div class="topbar">
+      <h1 class="topbar-title">GESTIÓN DE INVENTARIOS</h1>
+      <span class="topbar-user">Usuario: Pepito Perez</span>
+      <link rel="stylesheet" href="assets/css/style.css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </div>
+
+    <!-- Módulo de clientes -->
+<section id="clientes" class="productos-section">
+  <div class="productos-header">
+    <h2>Clientes</h2>
+    <button id="btnNuevoCliente" class="nuevo-btn">NUEVO CLIENTE +</button>
+  </div>
+
+  <table id="tablaClientes">
+    <thead>
+      <tr>
+        <th>Id Cliente</th>
+        <th>Nombre</th>
+        <th>Email</th>
+        <th>Teléfono</th>
+        <th>Fecha Registro</th>
+        <th>Total Pedidos</th>
+        <th>Total Comprado</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Ejemplo de fila -->
+      <tr>
+        <td>1</td>
+        <td>Carlos Perez</td>
+        <td>carlos@correo.com</td>
+        <td>3154789621</td>
+        <td>11/01/2025</td>
+        <td>3</td>
+        <td>$234.000</td>
+        <td>
+          <button title="Editar"><span class="icono">✏️</span></button>
+          <button title="Eliminar"><span class="icono eliminar">🗑️</span></button>
+        </td>
+      </tr>
+      <!-- Más filas pueden agregarse dinámicamente -->
+    </tbody>
+  </table>
+</section>
+
