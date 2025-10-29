@@ -1,0 +1,73 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard - Gestión de Inventarios</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="layout">
+    <!-- Barra lateral -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <!-- Aquí puedes agregar tu logo o título si lo deseas -->
+      </div>
+      <nav class="sidebar-menu">
+        <ul>
+          <li><a href="Dashboard.html" id="dashboardBtn" class="active">Dashboard</a></li>
+          <li><a href="ModuloProductos.html" id="productosBtn">Productos</a></li>
+          <li><a href="ModuloVentas.html" id="ventasBtn">Ventas</a></li>
+          <li><a href="ModuloCliente.html" id="clientesBtn">Clientes</a></li>
+          <li><a href="ModuloProveedor.html" id="proveedoresBtn">Proveedores</a></li>
+          <li><a href="ModuloReportes.html" id="reportesBtn">Reportes</a></li>
+          <li><a href="Login.html" id="logoutBtn">Cerrar Sesión</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Contenido principal -->
+    <main class="dashboard-container">
+      <!-- Barra superior -->
+      <div class="topbar">
+        <h1 class="topbar-title">GESTIÓN DE INVENTARIOS</h1>
+        <span class="topbar-user">Usuario: Pepito Perez</span>
+      </div>
+
+      <!-- Métricas -->
+      <div class="metrics-grid">
+        <div class="metric-card ingresos"><h3>INGRESOS TOTALES</h3><p>$12.500</p></div>
+        <div class="metric-card inventario"><h3>VALOR INVENTARIO</h3><p>$230.000</p></div>
+        <div class="metric-card pendientes"><h3>VENTAS PENDIENTES</h3><p>0</p></div>
+        <div class="metric-card critico"><h3>STOCK CRÍTICO</h3><p>3</p></div>
+      </div>
+
+      <!-- Gráficos -->
+      <div class="charts-grid">
+        <div class="chart-box"><h3>Gráfico de ventas por categoría</h3><canvas id="ventasPorCategoria"></canvas></div>
+        <div class="chart-box"><h3>Gráfico de pedidos por fecha</h3><canvas id="pedidosPorFecha"></canvas></div>
+        <div class="chart-box"><h3>Distribución por categoría</h3><canvas id="categoriasPie"></canvas></div>
+      </div>
+
+      <!-- Tabla -->
+      <div class="table-box">
+        <h3>Productos más vendidos</h3>
+        <table class="ventas-table">
+          <thead><tr><th>Producto</th><th>Ventas Totales</th></tr></thead>
+          <tbody>
+            <tr><td>Producto A</td><td>150</td></tr>
+            <tr><td>Producto B</td><td>105</td></tr>
+            <tr><td>Producto C</td><td>87</td></tr>
+            <tr><td>Producto D</td><td>76</td></tr>
+            <tr><td>Producto E</td><td>60</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+
+  <!-- Vinculación del script JavaScript -->
+  <script src="assets/js/Dashboard.js"></script>
+</body>
+</html>
