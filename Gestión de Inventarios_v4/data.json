@@ -1,0 +1,44 @@
+{
+  "productos": [
+    {
+      "id": 1762996933018,
+      "nombre": "Computador",
+      "categoria": "Tecnología",
+      "marca": "Lenovo",
+      "precio": 2500000,
+      "stock": 3,
+      "proveedor": "Sistemas al 100",
+      "estado": "Disponible"
+    },
+    {
+      "id": 1234,
+      "nombre": "Monitor",
+      "categoria": "Tecnología",
+      "marca": "HP",
+      "precio": 500000,
+      "stock": 3,
+      "proveedor": "Casita",
+      "estado": "Disponible"
+    },
+    {
+      "id": 1234,
+      "nombre": "Monitor",
+      "categoria": "Tecnología",
+      "marca": "HP",
+      "precio": 500000,
+      "stock": 3,
+      "proveedor": "Casita",
+      "estado": "Disponible"
+    },
+    {
+      "id": 123454,
+      "nombre": "Mouse",
+      "categoria": "Tecnología",
+      "marca": "HP",
+      "precio": 100000,
+      "stock": 14,
+      "proveedor": "Casita tecnologica",
+      "estado": "Disponible"
+    }
+  ]
+}

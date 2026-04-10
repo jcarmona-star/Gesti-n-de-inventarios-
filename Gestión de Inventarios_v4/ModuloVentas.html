@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestión de Inventarios - Ventas</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="layout">
+    <!-- Barra lateral -->
+    <aside class="sidebar">
+      <nav class="sidebar-menu">
+        <ul>
+          <li><a href="Dashboard.html" id="dashboardBtn">Dashboard</a></li>
+          <li><a href="ModuloProductos.html" id="productosBtn">Productos</a></li>
+          <li><a href="ModuloVentas.html" id="ventasBtn" class="active">Ventas</a></li>
+          <li><a href="ModuloCliente.html" id="clientesBtn">Clientes</a></li>
+          <li><a href="ModuloProveedor.html" id="proveedoresBtn">Proveedores</a></li>
+          <li><a href="ModuloReportes.html" id="reportesBtn">Reportes</a></li>
+          <li><a href="Login.html" id="logoutBtn">Cerrar Sesión</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Contenido principal -->
+    <main class="dashboard-container">
+      <div class="topbar">
+        <h1 class="topbar-title">GESTIÓN DE INVENTARIOS</h1>
+        <span class="topbar-user">Usuario: <span id="topbarUser">Invitado</span></span>
+      </div>
+
+      <!-- Módulo de ventas -->
+      <section id="ventas" class="productos-section">
+        <div class="productos-header">
+          <h2>Ventas</h2>
+          <button id="btnNuevaVenta" class="nuevo-btn">NUEVA VENTA +</button>
+        </div>
+
+        <!-- Formulario para nueva venta -->
+        <div id="formularioVenta" class="formulario-container" style="display: none;">
+          <h3>Registrar nueva venta</h3>
+          <form id="formVenta">
+            <label for="clienteVenta">Cliente:</label>
+            <input type="text" id="clienteVenta" required />
+
+            <label for="fechaVenta">Fecha:</label>
+            <input type="date" id="fechaVenta" required />
+
+            <label for="estadoVenta">Estado:</label>
+            <select id="estadoVenta" required>
+              <option value="Pendiente">Pendiente</option>
+              <option value="Pagado">Pagado</option>
+              <option value="Cancelado">Cancelado</option>
+            </select>
+
+            <label for="totalVenta">Total:</label>
+            <input type="number" id="totalVenta" required />
+
+            <label for="descripcionVenta">Productos:</label>
+            <textarea id="descripcionVenta" required></textarea>
+
+            <label for="adminVenta">Administrador:</label>
+            <input type="text" id="adminVenta" value="Pepito Perez" required />
+
+            <button type="submit">Guardar</button>
+            <button type="button" id="cancelarVenta">Cancelar</button>
+          </form>
+        </div>
+
+        <!-- Tabla de ventas -->
+        <table id="tablaVentas">
+          <thead>
+            <tr>
+              <th>Id Pedido</th>
+              <th>Cliente</th>
+              <th>Fecha</th>
+              <th>Estado</th>
+              <th>Total</th>
+              <th>Productos</th>
+              <th>Administrador</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Las filas se agregarán dinámicamente -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+
+  <!-- Llamado al archivo JS externo -->
+  <script src="assets/js/user-display.js"></script>
+  <script src="assets/js/storage.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/backend-check.js"></script>
+  <script src="assets/js/ModuloVentas.js"></script>
+</body>
+</html>
