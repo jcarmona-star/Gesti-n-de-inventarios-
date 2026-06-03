@@ -1,0 +1,61 @@
+<div class="layout">
+  <!-- Barra lateral -->
+  <aside class="sidebar">
+    <nav class="sidebar-menu">
+      <ul>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#productos" >Productos</a></li>
+        <li><a href="#ventas" >Ventas</a></li>
+        <li><a href="#clientes">Clientes</a></li>
+        <li><a href="#proveedores">Proveedores</a></li>
+        <li><a href="#reportes" class="active">Reportes</a></li>
+        <li><a href="#cerrar">Cerrar Sesión</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Contenido principal -->
+  <main class="dashboard-container">
+    <!-- Barra superior -->
+    <div class="topbar">
+      <h1 class="topbar-title">GESTIÓN DE INVENTARIOS</h1>
+      <span class="topbar-user">Usuario: Pepito Perez</span>
+      <link rel="stylesheet" href="assets/css/style.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </div>
+
+    <main class="main-content">
+      <section class="resumen">
+        <div class="card">Ingresos Totales: <strong>$3,261.750</strong></div>
+        <div class="card">Total Productos: <strong>3</strong></div>
+        <div class="card">Total Clientes: <strong>2</strong></div>
+        <div class="card">Stock Crítico: <strong>1</strong></div>
+      </section>
+
+      <!-- Botones de reporte -->
+      <section class="reportes">
+        <button>REPORTE DE PRODUCTOS</button>
+        <button>REPORTE DE VENTAS</button>
+        <button>REPORTE DE CLIENTES</button>
+      </section>
+
+      <!-- Gráficos -->
+      <section class="graficos">
+        <div class="grafico-barra">
+          <h2>Ventas por Mes</h2>
+          <!-- Aquí puedes insertar un gráfico con Chart.js o similar -->
+          <canvas id="ventasMes"></canvas>
+        </div>
+        <div class="grafico-pie">
+          <h2>Categorías de Productos</h2>
+          <ul>
+            <li>Electrónicos: 1</li>
+            <li>Accesorios: 1</li>
+            <li>Monitores: 1</li>
+          </ul>
+          <!-- Otro canvas para gráfico circular -->
+          <canvas id="categoriasPie"></canvas>
+        </div>
+      </section>
+    </main>
+  </div>

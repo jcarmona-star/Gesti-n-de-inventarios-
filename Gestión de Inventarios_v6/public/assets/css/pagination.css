@@ -1,0 +1,17 @@
+﻿/* Estilos de Paginación */
+.pagination-controls{display:flex;align-items:center;justify-content:center;gap:15px;margin:20px 0;padding:15px;background:#f8f9fa;border-radius:8px;flex-wrap:wrap}
+.page-nav{background:#3498db;color:#fff;border:none;padding:8px 16px;border-radius:6px;cursor:pointer;font-weight:600;transition:background .2s}
+.page-nav:hover:not(:disabled){background:#2980b9}
+.page-nav:disabled{background:#95a5a6;cursor:not-allowed;opacity:0.6}
+.page-numbers{display:flex;gap:5px;align-items:center}
+.page-btn{background:#fff;color:#2c3e50;border:1px solid #ddd;padding:6px 12px;border-radius:4px;cursor:pointer;font-weight:500;transition:all .2s}
+.page-btn:hover{background:#3498db;color:#fff;border-color:#3498db}
+.page-btn.active{background:#2980b9;color:#fff;border-color:#2980b9;font-weight:700}
+.page-dots{color:#7f8c8d;padding:0 5px}
+.page-info{color:#555;font-size:14px;font-weight:500}
+@media (max-width:768px){
+  .pagination-controls{flex-direction:column;gap:10px}
+  .page-info{order:1}
+  .page-numbers{order:2}
+  .page-nav{order:3;width:100%}
+}
