@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestión de Inventarios - Proveedores</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+<link rel="stylesheet" href="assets/css/pagination.css" />
+</head>
+<body>
+  <div class="layout">
+    <!-- Barra lateral -->
+    <aside class="sidebar">
+      <nav class="sidebar-menu">
+        <ul>
+          <li><a href="Dashboard.html" id="dashboardBtn">Dashboard</a></li>
+          <li><a href="ModuloProductos.html" id="productosBtn">Productos</a></li>
+          <li><a href="ModuloVentas.html" id="ventasBtn">Ventas</a></li>
+          <li><a href="ModuloCliente.html" id="clientesBtn">Clientes</a></li>
+          <li><a href="ModuloProveedor.html" id="proveedoresBtn" class="active">Proveedores</a></li>
+          <li><a href="ModuloReportes.html" id="reportesBtn">Reportes</a></li>
+          <li><a href="Login.html" id="logoutBtn">Cerrar Sesión</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Contenido principal -->
+    <main class="dashboard-container">
+      <div class="topbar">
+        <h1 class="topbar-title">GESTIÓN DE INVENTARIOS</h1>
+        <span class="topbar-user">Usuario: <span id="topbarUser">Invitado</span></span>
+      </div>
+
+      <!-- Módulo de proveedores -->
+      <section id="proveedores" class="productos-section">
+        <div class="productos-header">
+          <h2>Proveedores</h2>
+          <button id="btnNuevoProveedor" class="nuevo-btn">NUEVO PROVEEDOR +</button>
+        </div>
+
+        <!-- Formulario para nuevo proveedor -->
+        <div id="formularioProveedor" class="formulario-container" style="display: none;">
+          <h3>Registrar nuevo proveedor</h3>
+          <form id="formProveedor">
+            <label for="nombreProveedor">Nombre Proveedor:</label>
+            <input type="text" id="nombreProveedor" required />
+
+            <label for="nombreContacto">Nombre Contacto:</label>
+            <input type="text" id="nombreContacto" required />
+
+            <label for="correoProveedor">Correo:</label>
+            <input type="email" id="correoProveedor" required />
+
+            <label for="telefonoProveedor">Teléfono:</label>
+            <input type="text" id="telefonoProveedor" required />
+
+            <label for="direccionProveedor">Dirección:</label>
+            <input type="text" id="direccionProveedor" required />
+
+            <button type="submit">Guardar</button>
+            <button type="button" id="cancelarProveedor">Cancelar</button>
+          </form>
+        </div>
+
+        <!-- Filtro de búsqueda -->
+        <div class="filter-container">
+          <input type="text" id="filtroProveedores" placeholder="🔍 Buscar proveedores..." style="width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 4px;" />
+        </div>
+
+        <!-- Tabla de proveedores -->
+        <table id="tablaProveedores">
+          <thead>
+            <tr>
+              <th>Id Proveedor</th>
+              <th>Nombre Proveedor</th>
+              <th>Nombre Contacto</th>
+              <th>Correo</th>
+              <th>Teléfono</th>
+              <th>Dirección</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Las filas se agregarán dinámicamente -->
+          </tbody>
+        </table>
+<div id="paginationProveedores" class="pagination-container"></div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Llamado al archivo JS externo -->
+  <script src="assets/js/user-display.js"></script>
+  <script src="assets/js/storage.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/backend-check.js"></script>
+  <script src="assets/js/pagination.js"></script>
+<script src="assets/js/ModuloProveedor.js"></script>
+   <script src="assets/js/footer.js"></script>
+</body>
+</html>

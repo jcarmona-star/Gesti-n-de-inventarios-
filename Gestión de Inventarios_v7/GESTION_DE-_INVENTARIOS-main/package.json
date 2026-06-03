@@ -1,0 +1,19 @@
+{
+  "name": "gestion-inventarios",
+  "version": "1.0.0",
+  "description": "Proyecto Gestión de Inventarios - servidor estático",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --verbose --coverage",
+    "test:watch": "jest --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
