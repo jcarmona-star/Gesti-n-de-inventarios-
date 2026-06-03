@@ -1,0 +1,108 @@
+{
+    "proveedores": [
+        {
+            "nombre": "TechWorld",
+            "contacto": "Pedro Tech",
+            "correo": "contacto@techworld.com",
+            "telefono": "111222333",
+            "direccion": "Calle 123",
+            "id": 1764101209183
+        },
+        {
+            "nombre": "AccesoriosYA",
+            "contacto": "Ana Accesorios",
+            "correo": "ventas@accesoriosya.com",
+            "telefono": "444555666",
+            "direccion": "Av. Siempre Viva",
+            "id": 1764101209196
+        },
+        {
+            "nombre": "AudioStore",
+            "contacto": "Luis Audio",
+            "correo": "info@audiostore.com",
+            "telefono": "777888999",
+            "direccion": "Plaza Central",
+            "id": 1764101209204
+        },
+        {
+            "nombre": "Tech Solutions S.A.",
+            "contacto": "Carlos Méndez",
+            "correo": "ventas@techsolutions.com",
+            "telefono": "555-0101",
+            "direccion": "Av. Tecnología 123, Ciudad",
+            "id": 1764103872293.554
+        },
+        {
+            "nombre": "Digital World Corp",
+            "contacto": "Ana García",
+            "correo": "info@digitalworld.com",
+            "telefono": "555-0102",
+            "direccion": "Calle Innovación 456, Ciudad",
+            "id": 1764103872413.4937
+        },
+        {
+            "nombre": "Electro Mayorista",
+            "contacto": "Luis Rodríguez",
+            "correo": "contacto@electromayorista.com",
+            "telefono": "555-0103",
+            "direccion": "Zona Industrial 789, Ciudad",
+            "id": 1764103872432.3694
+        },
+        {
+            "nombre": "Importadora TechPlus",
+            "contacto": "María López",
+            "correo": "ventas@techplus.com",
+            "telefono": "555-0104",
+            "direccion": "Centro Comercial 321, Ciudad",
+            "id": 1764103872443.5022
+        },
+        {
+            "nombre": "Distribuidora Global Tech",
+            "contacto": "Pedro Sánchez",
+            "correo": "pedidos@globaltech.com",
+            "telefono": "555-0105",
+            "direccion": "Parque Empresarial 654, Ciudad",
+            "id": 1764103872456.2986
+        },
+        {
+            "nombre": "Componentes y Más",
+            "contacto": "Laura Martínez",
+            "correo": "info@componentesymas.com",
+            "telefono": "555-0106",
+            "direccion": "Av. Principal 987, Ciudad",
+            "id": 1764103872468.999
+        },
+        {
+            "nombre": "Mega Electronics",
+            "contacto": "Jorge Ramírez",
+            "correo": "ventas@megaelectronics.com",
+            "telefono": "555-0107",
+            "direccion": "Plaza Tecnológica 147, Ciudad",
+            "id": 1764103872475.4583
+        },
+        {
+            "nombre": "Smart Devices Inc",
+            "contacto": "Carmen Díaz",
+            "correo": "contacto@smartdevices.com",
+            "telefono": "555-0108",
+            "direccion": "Torre Empresarial 258, Ciudad",
+            "id": 1764103872483.9165
+        },
+        {
+            "nombre": "PC Parts Wholesale",
+            "contacto": "Roberto Torres",
+            "correo": "info@pcparts.com",
+            "telefono": "555-0109",
+            "direccion": "Zona Franca 369, Ciudad",
+            "id": 1764103872490.9895
+        },
+        {
+            "nombre": "Mobile Tech Distributors",
+            "contacto": "Patricia Gómez",
+            "correo": "ventas@mobiletech.com",
+            "telefono": "555-0110",
+            "direccion": "Centro Logístico 741, Ciudad",
+            "id": 1764103872515.1836
+        }
+    ]
+}

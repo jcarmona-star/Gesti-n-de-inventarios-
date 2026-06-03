@@ -1,0 +1,351 @@
+{
+  "ventas": [
+    {
+      "cliente": "Juan Perez",
+      "fecha": "2023-10-01",
+      "estado": "Completado",
+      "total": 6000000,
+      "descripcion": "Laptop Gamer",
+      "admin": "Admin",
+      "id": 1764101209214
+    },
+    {
+      "cliente": "Maria Lopez",
+      "fecha": "2023-10-05",
+      "estado": "Completado",
+      "total": 200000,
+      "descripcion": "Mouse x2",
+      "admin": "Admin",
+      "id": 1764101209223
+    },
+    {
+      "cliente": "Juan Perez",
+      "fecha": "2023-10-10",
+      "estado": "Pendiente",
+      "total": 800000,
+      "descripcion": "Monitor",
+      "admin": "Admin",
+      "id": 1764101209230
+    },
+    {
+      "cliente": "Carlos Ruiz",
+      "fecha": "2023-10-15",
+      "estado": "Completado",
+      "total": 10000000,
+      "descripcion": "Varios",
+      "admin": "Admin",
+      "id": 1764101209237
+    },
+    {
+      "cliente": "Maria Lopez",
+      "fecha": "2023-10-20",
+      "estado": "Cancelado",
+      "total": 320000,
+      "descripcion": "Auriculares",
+      "admin": "Admin",
+      "id": 1764101209245
+    },
+    {
+      "id": 1764103872915,
+      "cliente": "Pedro Morales",
+      "fecha": "2025-11-07",
+      "estado": "Pendiente",
+      "total": 22530000,
+      "descripcion": "Xiaomi Poco X5 (x1), Dell Inspiron 14 (x3), Funda Laptop 15.6\" (x1), Samsung Galaxy Z Flip 5 (x3)",
+      "admin": "Pepito Perez",
+      "productos": [
+        {
+          "id": 1764103872624.311,
+          "nombre": "Xiaomi Poco X5",
+          "precio": 1400000,
+          "cantidad": 1
+        },
+        {
+          "id": 1764103872541.4346,
+          "nombre": "Dell Inspiron 14",
+          "precio": 2800000,
+          "cantidad": 3
+        },
+        {
+          "id": 1764103872700.7344,
+          "nombre": "Funda Laptop 15.6\"",
+          "precio": 130000,
+          "cantidad": 1
+        },
+        {
+          "id": 1764103872620.6748,
+          "nombre": "Samsung Galaxy Z Flip 5",
+          "precio": 4200000,
+          "cantidad": 3
+        }
+      ]
+    },
+    {
+      "id": 1764103873923,
+      "cliente": "Future Tech",
+      "fecha": "2025-10-14",
+      "estado": "Pendiente",
+      "total": 11400000,
+      "descripcion": "Samsung Galaxy A54 (x3), Sony WH-1000XM5 (x2), Dell Inspiron 14 (x1)",
+      "admin": "Pepito Perez",
+      "productos": [
+        {
+          "id": 1764103872607.0225,
+          "nombre": "Samsung Galaxy A54",
+          "precio": 1800000,
+          "cantidad": 3
+        },
+        {
+          "id": 1764103872758.0437,
+          "nombre": "Sony WH-1000XM5",
+          "precio": 1600000,
+          "cantidad": 2
+        },
+        {
+          "id": 1764103872541.4346,
+          "nombre": "Dell Inspiron 14",
+          "precio": 2800000,
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 1764103874927,
+      "cliente": "Miguel Torres",
+      "fecha": "2025-10-05",
+      "estado": "Pendiente",
+      "total": 10840000,
+      "descripcion": "Webcam Logitech C920 (x2), Lenovo Tab P11 (x3), Samsung Galaxy Tab A8 (x1), Dell Inspiron 14 (x2)",
+      "admin": "Pepito Perez",
+      "productos": [
+        {
+          "id": 1764103872677.5981,
+          "nombre": "Webcam Logitech C920",
+          "precio": 320000,
+          "cantidad": 2
+        },
+        {
+          "id": 1764103872645.8984,
+          "nombre": "Lenovo Tab P11",
+          "precio": 1200000,
+          "cantidad": 3
+        },
+        {
+          "id": 1764103872650.2717,
+          "nombre": "Samsung Galaxy Tab A8",
+          "precio": 1000000,
+          "cantidad": 1
+        },
+        {
+          "id": 1764103872541.4346,
+          "nombre": "Dell Inspiron 14",
+          "precio": 2800000,
+          "cantidad": 2
+        }
+      ]
+    },
+    {
+      "id": 1764103875932,
+      "cliente": "Carmen López",
+      "fecha": "2025-08-27",
+      "estado": "Pendiente",
+      "total": 11910000,
+      "descripcion": "iPad Pro 11\" (x3), Cargador USB-C 65W (x3)",
+      "admin": "Pepito Perez",
+      "productos": [
+        {
+          "id": 1764103872641.2515,
+          "nombre": "iPad Pro 11\"",
+          "precio": 3800000,
+          "cantidad": 3
+        },
+        {
+          "id": 1764103872705.0703,
+          "nombre": "Cargador USB-C 65W",
+          "precio": 170000,
+          "cantidad": 3
+        }
+      ]
+    },
+    {
+      "id": 1764103876937,
+      "cliente": "Pedro Morales",
+      "fecha": "2025-11-05",
+      "estado": "Pagado",
+      "total": 6775000,
+      "descripcion": "Protector Pantalla iPad (x3), Dell XPS 13 (x1), Teclado Mecánico Corsair K95 (x1)",
+      "admin": "Pepito Perez",
+      "productos": [
+        {
+          "id": 1764103872715.1086,
+          "nombre": "Protector Pantalla iPad",
+          "precio": 75000,
+          "cantidad": 3
+        },
+        {
+          "id": 1764103872573.478,
+          "nombre": "Dell XPS 13",
+          "precio": 5800000,
+          "cantidad": 1
+        },
+        {
+          "id": 1764103872673.329,
+          "nombre": "Teclado Mecánico Corsair K95",
+          "precio": 750000,
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 1764103877990,
+      "cliente": "Carlos Rodríguez",
+      "fecha": "2025-09-30",
+      "estado": "Pendiente",
+      "total": 1150000,
+      "descripcion": "Mousepad RGB Grande (x1), Samsung Galaxy Tab A8 (x1)",
+      "admin": "Pepito Perez",
+      "productos": [
+        {
+          "id": 1764103872695.021,
+          "nombre": "Mousepad RGB Grande",
+          "precio": 150000,
+          "cantidad": 1
+        },
+        {
+          "id": 1764103872650.2717,
+          "nombre": "Samsung Galaxy Tab A8",
+          "precio": 1000000,
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 1764103879023,
+      "cliente": "Innovatech Ltda",
+      "fecha": "2025-09-16",
+      "estado": "Pendiente",
+      "total": 29800000,
+      "descripcion": "Xiaomi Poco X5 (x2), Lenovo Yoga Tab 13 (x2), Acer Aspire 5 (x3), Xiaomi Poco X5 (x3), Samsung Galaxy S22 (x3)",
+      "admin": "Pepito Perez",
+      "productos": [
+        {
+          "id": 1764103872624.311,
+          "nombre": "Xiaomi Poco X5",
+          "precio": 1400000,
+          "cantidad": 2
+        },
+        {
+          "id": 1764103872663.3025,
+          "nombre": "Lenovo Yoga Tab 13",
+          "precio": 3300000,
+          "cantidad": 2
+        },
+        {
+          "id": 1764103872559.3774,
+          "nombre": "Acer Aspire 5",
+          "precio": 2200000,
+          "cantidad": 3
+        },
+        {
+          "id": 1764103872624.311,
+          "nombre": "Xiaomi Poco X5",
+          "precio": 1400000,
+          "cantidad": 3
+        },
+        {
+          "id": 1764103872628.1646,
+          "nombre": "Samsung Galaxy S22",
+          "precio": 3200000,
+          "cantidad": 3
+        }
+      ]
+    },
+    {
+      "id": 1764103880036,
+      "cliente": "Laura Ramírez",
+      "fecha": "2025-09-11",
+      "estado": "Pagado",
+      "total": 39200000,
+      "descripcion": "Samsung Galaxy A54 (x3), iPad Pro 11\" (x3), MacBook Air M2 (x2), iPad Pro 11\" (x3)",
+      "admin": "Pepito Perez",
+      "productos": [
+        {
+          "id": 1764103872607.0225,
+          "nombre": "Samsung Galaxy A54",
+          "precio": 1800000,
+          "cantidad": 3
+        },
+        {
+          "id": 1764103872641.2515,
+          "nombre": "iPad Pro 11\"",
+          "precio": 3800000,
+          "cantidad": 3
+        },
+        {
+          "id": 1764103872536.3276,
+          "nombre": "MacBook Air M2",
+          "precio": 5500000,
+          "cantidad": 2
+        },
+        {
+          "id": 1764103872641.2515,
+          "nombre": "iPad Pro 11\"",
+          "precio": 3800000,
+          "cantidad": 3
+        }
+      ]
+    },
+    {
+      "id": 1764103881041,
+      "cliente": "Digital Solutions",
+      "fecha": "2025-09-23",
+      "estado": "Pagado",
+      "total": 6960000,
+      "descripcion": "Samsung Galaxy S22 (x1), Funda Laptop 15.6\" (x2), Laptop HP Pavilion 15 (x1)",
+      "admin": "Pepito Perez",
+      "productos": [
+        {
+          "id": 1764103872628.1646,
+          "nombre": "Samsung Galaxy S22",
+          "precio": 3200000,
+          "cantidad": 1
+        },
+        {
+          "id": 1764103872700.7344,
+          "nombre": "Funda Laptop 15.6\"",
+          "precio": 130000,
+          "cantidad": 2
+        },
+        {
+          "id": 1764103872530.035,
+          "nombre": "Laptop HP Pavilion 15",
+          "precio": 3500000,
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "id": 1764103882048,
+      "cliente": "Laura Ramírez",
+      "fecha": "2025-09-15",
+      "estado": "Pendiente",
+      "total": 1950000,
+      "descripcion": "Lenovo Tab P11 (x1), Teclado Mecánico Corsair K95 (x1)",
+      "admin": "Pepito Perez",
+      "productos": [
+        {
+          "id": 1764103872645.8984,
+          "nombre": "Lenovo Tab P11",
+          "precio": 1200000,
+          "cantidad": 1
+        },
+        {
+          "id": 1764103872673.329,
+          "nombre": "Teclado Mecánico Corsair K95",
+          "precio": 750000,
+          "cantidad": 1
+        }
+      ]
+    }
+  ]
+}
