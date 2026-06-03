@@ -1,0 +1,66 @@
+<div class="layout">
+  <!-- Barra lateral -->
+  <aside class="sidebar">
+    <nav class="sidebar-menu">
+      <ul>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#productos" >Productos</a></li>
+        <li><a href="#ventas" class="active">Ventas</a></li>
+        <li><a href="#clientes">Clientes</a></li>
+        <li><a href="#proveedores">Proveedores</a></li>
+        <li><a href="#reportes">Reportes</a></li>
+        <li><a href="#cerrar">Cerrar Sesión</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Contenido principal -->
+  <main class="dashboard-container">
+    <div class="topbar">
+      <h1 class="topbar-title">GESTIÓN DE INVENTARIOS</h1>
+      <span class="topbar-user">Usuario: Pepito Perez</span>
+      <link rel="stylesheet" href="assets/css/style.css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </div>
+
+<!-- Módulo de ventas -->
+<section id="ventas" class="productos-section">
+  <div class="productos-header">
+    <h2>Ventas</h2>
+    <button id="btnNuevaVenta" class="nuevo-btn">NUEVA VENTA +</button>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </div>
+
+  <table id="tablaVentas">
+    <thead>
+      <tr>
+        <th>Id Pedido</th>
+        <th>Cliente</th>
+        <th>Fecha</th>
+        <th>Estado</th>
+        <th>Total</th>
+        <th>Productos</th>
+        <th>Administrador</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Ejemplo de fila -->
+      <tr>
+        <td>1</td>
+        <td>Carlos Perez</td>
+        <td>01/01/2025</td>
+        <td>Pendiente</td>
+        <td>$450,000</td>
+        <td>Descripción</td>
+        <td>Pepito Perez</td>
+        <td>
+          <button title="Editar"><span class="icono">✏️</span></button>
+          <button title="Eliminar"><span class="icono eliminar">🗑️</span></button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
